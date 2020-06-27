@@ -10,3 +10,8 @@ To host the script:
  
  
 For a quickstart on implementing LNM in android, refer to https://github.com/Kenovators/LNM-Tutorial
+
+##Test Purposes
+What if you don't have a osting plan and are just testing? 
+Don't worry, use the default CallbackURL provided by Safaricom.
+If you would like to get your own request-bin to test out the CallbackURL go to http://mpesa-requestbin.herokuapp.com and select Create RequestBin. Copy the URL in the Bin URL textbox and use it as your CallbackURL.
