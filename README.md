@@ -7,7 +7,12 @@ To host the script:
  1. Buy a hosting service/plan and domain..
  2. Create a subdomain(optional)
  3. Host the script in the subdomain or public directory
- 
+ 4. Create a MySQL database and add a user with all permissions
+ 5. Open the hosted script and change the following:
+ - server (Usually 'localhost')
+ - dbUser (User with permissions to the database)
+ - dbPassword (Password of the user)
+ - dbName (Name of the created database)
  
 For a quickstart on implementing LNM in android, refer to https://github.com/Kenovators/LNM-Tutorial
 
