@@ -1,5 +1,6 @@
 <?php
     //Enter your database server authentication information and name of the db you want to use
+    //Database used in this example is mysql
     $db_server = "localhost";
     $db_username = "username";
     $db_password = "password";
@@ -14,6 +15,7 @@
     }
     
     // Coloumns in the table, you can chage these but they have to match up exactly with the table
+    // This is where results are stored and retrieved. Whithout this, the callback wouldn't be successful
     $columns = ["amount","receipt","transday","phonenumber"];
     $values = array();
     foreach ($data->Body->stkCallback->CallbackMetadata->Item as $item) {
