@@ -1,9 +1,14 @@
 <?php
     //Enter your database server authentication information and name of the db you want to use
     //Database used in this example is mysql
-    $db_server = "localhost";
+
+    //You will rarely have to change this:
+    $db_server = "localhost"; 
+    //Enter your database username. If on localhost, default will be 'root'
     $db_username = "username";
+    //Password for the databse username
     $db_password = "password";
+    //Name of the database to be connected using the credentials inserted above
     $db_database = "dbName";
 
     $con=mysqli_connect($db_server,$db_username,$db_password,$db_database); 
