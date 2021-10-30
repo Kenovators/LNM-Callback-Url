@@ -43,9 +43,9 @@
         $exec = mysqli_query($con,$transact);
 
         if($exec){
-            echo "Data inserted";
+            echo "Data inserted succeffully";
         }else{
-            echo "There was an error " . mysqli_error($con);
+            echo "There was an error processing the transactions " . mysqli_error($con);
         }
 
         mysqli_close($con);	
